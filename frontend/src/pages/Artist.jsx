@@ -10,7 +10,7 @@ const Artist = () => {
 const {id}=useParams();
 
 const artistObj= artistArray.filter(
- (currentArtistObj) => currentArtistObj.id === Number(id)
+ (currentArtistObj) => currentArtistObj._id ===id
 )[0];
 
 const songsArrayFromArtist = songsArray.filter(
@@ -21,7 +21,7 @@ const songsArrayFromArtist = songsArray.filter(
 
 
 const randomIndex  = Math.floor(Math.random()*(songsArrayFromArtist.length-1));
-const randomIdArtist=songsArrayFromArtist[randomIndex].id;
+const randomIdArtist=songsArrayFromArtist[randomIndex]._id;
 
   return <div className="artist">
   <div className="artist__header"

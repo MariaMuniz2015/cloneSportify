@@ -1,8 +1,5 @@
 import { MongoClient } from "mongodb";
 
-//const URI =
-//coneção mongodb com senha
-
 const client = new MongoClient(URI);
 
 export const db = client.db("Spotify");
