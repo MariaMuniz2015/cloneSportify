@@ -50,7 +50,8 @@ const songsArrayFromArtist = songsArray.filter(
     </Link>
     <Player duration={duration}  
     randomIdFromArtist={ randomIdFromArtist}
-    randomId2FromArtist={randomId2FromArtist}/>
+    randomId2FromArtist={randomId2FromArtist}
+    audio={audio}/>
 
    
     <div className="">
