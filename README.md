@@ -2,7 +2,7 @@
 
 Projeto clone do Spotify. Usando React + vite.
 
-# # Hooks:
+## Hooks:
 
 * useState
 * useEffect
