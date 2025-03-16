@@ -8,4 +8,4 @@ Projeto clone do Spotify. Usando React + vite.
 * useEffect
 * useRef
   Banco de dados:
-* MongoDb
+  MongoDb
