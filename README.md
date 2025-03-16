@@ -2,10 +2,10 @@
 
 Projeto clone do Spotify. Usando React + vite.
 
-# Hooks:
+# # Hooks:
 
 * useState
 * useEffect
 * useRef
-  Banco de dados:
+ ## Banco de dados:
   MongoDb
