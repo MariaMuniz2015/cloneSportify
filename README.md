@@ -1,4 +1,4 @@
-# React + Vite
+# Spotify
 
 Projeto clone do Spotify. Usando React + vite.
 
